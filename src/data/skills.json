@@ -1,0 +1,21 @@
+{
+  "domains": [
+    "Artificial Intelligence", "Machine Learning", "Deep Learning", "Reinforcement Learning",
+    "Natural Language Processing", "Speech Processing", "Computer Vision",
+    "Large Language Models", "GenAI", "Agentic AI", "Convolutional Neural Networks",
+    "Imitation Learning", "Data Analysis", "Data Visualization"
+  ],
+  "languages": ["Python", "C++", "Java"],
+  "frameworks": [
+    "PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "Stable-Baselines3",
+    "Gymnasium", "PyBullet", "MuJoCo", "OpenCV", "NLTK", "Spacy",
+    "Pandas", "NumPy", "Seaborn", "Matplotlib", "Streamlit"
+  ],
+  "tools": ["Docker", "Git", "MySQL", "MongoDB", "SQL", "Tableau", "Power BI", "Orange", "React.js", "Node.js", "Express.js", "Jupyter Notebook"],
+  "languagesSpoken": [
+    { "name": "Gujarati", "level": "Mother tongue" },
+    { "name": "English", "level": "Fluent" },
+    { "name": "Hindi", "level": "Fluent" },
+    { "name": "German", "level": "B1" }
+  ]
+}

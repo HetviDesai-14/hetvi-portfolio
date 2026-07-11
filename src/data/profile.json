@@ -1,0 +1,25 @@
+{
+  "name": "Hetvi Desai",
+  "fullName": "Hetvi Udaybhai Desai",
+  "role": "AI / ML Engineer",
+  "tagline": "I build AI that sees, reasons, and acts.",
+  "subline": "AI/ML engineer working across large language models, computer vision, and reinforcement learning — turning research into systems that perceive the world, reason through language, and act in it.",
+  "location": "Kapadwanj, Gujarat, India",
+  "email": "desaihetvi008@gmail.com",
+  "phone": "+91 7434851851",
+  "whatsapp": "+91 7434851851",
+  "linkedin": "https://www.linkedin.com/in/hetvi-d-13651227a",
+  "resumeFile": "/resume/Hetvi_Desai_CV.pdf",
+  "profileImage": "/images/hetvi-profile.png",
+  "availability": "Open to full-time ML / applied research roles, 2026",
+  "tickerItems": [
+    "LLM",
+    "NLP",
+    "Reinforcement Learning",
+    "Imitation Learning",
+    "Deep Learning",
+    "Machine Learning",
+    "Computer Vision",
+    "Speech AI"
+  ]
+}

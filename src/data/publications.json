@@ -1,0 +1,35 @@
+[
+  {
+    "id": "ackfs-paper",
+    "year": "2025",
+    "title": "Symptom-based early detection and classification of plant diseases using AI-driven CNN+KNN Fusion Software (ACKFS)",
+    "authors": "Jayswal Hardik, Rishi Sanjaykumar Patel, Hetvi Desai, Hasti Vakani, Mithil Mistry, Nilesh Dubey",
+    "journal": "Software Impacts, Vol. 24, 100755",
+    "publisher": "Elsevier B.V",
+    "doi": "10.1016/j.simpa.2025.100755",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2665963825000156",
+    "tag": "Computer Vision"
+  },
+  {
+    "id": "sstas-paper",
+    "year": "2025",
+    "title": "Plant Disease Classification with Spectral Signature Taxonomy and Analysis Software (SSTAS)",
+    "authors": "Jayswal Hardik A., Hetvi Desai, Hasti Vakani, Mithil Mistry, Nilesh Dubey, et al.",
+    "journal": "Software Impacts, Vol. 23, 100744 — Web of Science (ESCI), Impact Factor 1.3, Q3",
+    "publisher": "Elsevier B.V",
+    "doi": "10.1016/j.simpa.2025.100744",
+    "link": "https://www.sciencedirect.com/science/article/pii/S2665963825000041",
+    "tag": "Deep Learning"
+  },
+  {
+    "id": "crop-recommendation",
+    "year": "2024",
+    "title": "Crop Recommendation Systems: Insights, Trends, and Methodological Approaches",
+    "authors": "Hetvi Desai, Hardikkumar Jayswal, Nilesh Dubey, Dipika Damodar, Ashwin Makwana, Jitendra Chaudhari, Amit Nayak",
+    "journal": "International Conference on ICT for Competitive Strategies — Intelligent Strategies for ICT, LNNS vol. 1319, pp. 351–359",
+    "publisher": "Springer Nature Singapore Pte Ltd",
+    "doi": null,
+    "link": "https://scholar.google.com/scholar?q=%22Crop+Recommendation+Systems%3A+Insights%2C+Trends%2C+and+Methodological+Approaches%22+Hetvi+Desai",
+    "tag": "Machine Learning"
+  }
+]

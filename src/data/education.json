@@ -1,0 +1,24 @@
+[
+  {
+    "id": "marburg",
+    "degree": "Master of Science (MSc), Data Science",
+    "org": "Philipps-Universität Marburg",
+    "location": "Marburg, Germany",
+    "start": "2026-09",
+    "end": "2028-08",
+    "grade": "Incoming",
+    "link": "https://www.uni-marburg.de/",
+    "detail": "Graduate coursework in statistical learning, machine learning systems, and applied data science — extending the same research-to-production thread from undergrad, now with a deeper focus on the mathematical and systems foundations behind modern AI."
+  },
+  {
+    "id": "charusat",
+    "degree": "Bachelor of Technology (BTech), Information Technology",
+    "org": "Charotar University of Science and Technology (CHARUSAT)",
+    "location": "Anand, India",
+    "start": "2022-09",
+    "end": "2026-04",
+    "grade": "9.36 CGPA",
+    "link": "https://www.charusat.ac.in/",
+    "detail": "Core coursework in Programming Languages, Data Structures, DBMS, Operating Systems, Computer Architecture, Design of Algorithms, Computer Networks, Software Engineering, Theory of Computation, Information Security, Cloud Computing, Compiler Construction, Machine Learning, Deep Learning, and Artificial Intelligence."
+  }
+]

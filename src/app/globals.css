@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fbf8ff;
+  --surface: #ffffff;
+  --surface-2: #f3eefc;
+  --text: #1b1530;
+  --muted: #675e88;
+  --line: #e3ddf3;
+  --accent: #e8531f;
+  --accent-2: #0ea893;
+  --accent-soft: rgba(232, 83, 31, 0.1);
+  --accent2-soft: rgba(14, 168, 147, 0.12);
+}
+
+.dark {
+  --bg: #120e1c;
+  --surface: #1b1530;
+  --surface-2: #241c3d;
+  --text: #f3efff;
+  --muted: #a79bcf;
+  --line: #332a54;
+  --accent: #ff6b45;
+  --accent-2: #35d0ba;
+  --accent-soft: rgba(255, 107, 69, 0.14);
+  --accent2-soft: rgba(53, 208, 186, 0.14);
+}
+
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+/* full-page section snapping — "page up / page down" feel */
+.snap-section {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+footer.site-footer {
+  scroll-snap-align: end;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--line);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container-px {
+  @apply px-6 md:px-10 lg:px-16;
+}
+
+.section-label {
+  @apply font-mono text-xs tracking-[0.25em] uppercase text-accent;
+}
+
+.card {
+  background-color: var(--surface);
+  border: 1px solid var(--line);
+}
+
+.tag-chip {
+  @apply font-mono text-[11px] tracking-wide uppercase px-2.5 py-1 rounded-full;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent-soft);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* signal trace line used as a section divider */
+.signal-divider {
+  width: 100%;
+  height: 40px;
+  display: block;
+}
+
+/* ---------- drag-to-reveal footer ---------- */
+.page-shell {
+  position: relative;
+}
+
+footer.site-footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.main-content {
+  position: relative;
+  z-index: 1;
+  background: var(--bg);
+  scroll-snap-type: y mandatory;
+}
+
+/* rounded "peel" edge so the reveal feels intentional */
+.main-content {
+  border-bottom-left-radius: 28px;
+  border-bottom-right-radius: 28px;
+  box-shadow: 0 40px 60px -20px rgba(0, 0, 0, 0.25);
+}
+
+/* ---------- 3D hero photo ---------- */
+.hero-3d-stage {
+  perspective: 1400px;
+}
+
+.hero-3d-layer {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* ---------- steady toolkit chips ---------- */
+.chip-steady {
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.chip-steady:hover {
+  transform: translateY(-3px) scale(1.06);
+  background: var(--accent) !important;
+  color: #fff !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 10px 22px -8px var(--accent);
+}

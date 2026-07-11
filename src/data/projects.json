@@ -1,0 +1,41 @@
+[
+  {
+    "id": "bipedal-rl",
+    "title": "Learning to Walk",
+    "subtitle": "Bipedal Robot Locomotion Using Reinforcement Learning",
+    "period": "May 2025 – Aug 2025",
+    "description": "Deep RL with actor–critic algorithms (DDPG, TD3, SAC) plus a PD controller to learn stable, energy-efficient walking in continuous action spaces.",
+    "details": [
+      "Trained in simulation with sensory feedback for smooth, terrain-adaptive humanoid locomotion.",
+      "Balanced dynamic stability and energy efficiency across a complex control environment."
+    ],
+    "stack": ["PyBullet", "MuJoCo", "Stable-Baselines3", "Gymnasium", "PyTorch"],
+    "type": "Reinforcement Learning"
+  },
+  {
+    "id": "cold-email-genai",
+    "title": "Cold Email Generator",
+    "subtitle": "End-to-End Generative AI Tool",
+    "period": "Feb 2025 – Apr 2025",
+    "description": "Full-stack GenAI system that automates personalized cold-email outreach for software and AI service companies.",
+    "details": [
+      "Used LLaMA 3.1 with Retrieval-Augmented Generation (ChromaDB + LangChain) for context-aware, tailored emails.",
+      "Built a Flask front end for entering industry, service offerings, and tone preferences."
+    ],
+    "stack": ["LLaMA 3.1", "RAG", "ChromaDB", "LangChain", "Flask"],
+    "type": "Generative AI"
+  },
+  {
+    "id": "sql-chatbot",
+    "title": "SQL Chatbot",
+    "subtitle": "Generative AI-based Natural Language → SQL",
+    "period": "Sep 2024 – Nov 2024",
+    "description": "An AI-powered chatbot that turns natural-language requests into complex SQL queries, improving query efficiency by 60%.",
+    "details": [
+      "Interpreted user intent with ML to generate precise SQL for 50+ queries a day.",
+      "Refined the model on 10,000+ query variations to boost accuracy and UX."
+    ],
+    "stack": ["Python", "NLP", "SQL", "MySQL"],
+    "type": "Applied NLP"
+  }
+]

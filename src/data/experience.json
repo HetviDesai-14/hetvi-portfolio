@@ -1,0 +1,80 @@
+[
+  {
+    "id": "gurugrace",
+    "role": "AI/ML Engineer (Intern)",
+    "org": "GuruGrace Consultancy Service Pvt. Ltd",
+    "location": "Remote \u00b7 Ahmedabad, India",
+    "start": "2025-12",
+    "end": "2026-06",
+    "current": false,
+    "sector": "Information & Communication \u00b7 Natural Language Processing",
+    "link": "https://gcsteq.com/",
+    "summary": "Architected an emotionally aligned AI ecosystem spanning prompt engineering, activation steering, and circuit-level model interventions.",
+    "highlights": [
+      "Achieved state-of-the-art emotion-expression accuracy \u2014 97.4% on Mistral-3-3B and 99.4% on Qwen3-4B-Instruct.",
+      "Built an end-to-end multimodal emotion pipeline: RoBERTa emotion classifier (98.8% F1), target classifier (96.6% F1), and a LoRA-fine-tuned SenseVoice speech recognizer.",
+      "Combined the pipeline with CosyVoice2 and F5-TTS to enable controllable emotional speech generation across 6+ distinct categories."
+    ],
+    "tags": [
+      "Activation Steering",
+      "LoRA",
+      "RoBERTa",
+      "SenseVoice",
+      "CosyVoice2",
+      "F5-TTS"
+    ],
+    "logo": "/images/experience/gcs.jpg"
+  },
+  {
+    "id": "iit-hyderabad",
+    "role": "Research Intern",
+    "org": "IIT Hyderabad \u2014 Natural Language & Information Processing Lab",
+    "location": "Hyderabad, India",
+    "start": "2026-01",
+    "end": "2026-05",
+    "current": false,
+    "sector": "Natural Language & Information Processing Lab",
+    "link": "https://nlip-lab.github.io/nlip/",
+    "summary": "Localized school-level math word problems and children's stories from US/UK English to Indian English while preserving exact mathematical meaning and structure.",
+    "highlights": [
+      "Built a high-quality synthetic parallel dataset using open-source LLMs under strict structural-alignment constraints.",
+      "Used the dataset to train and evaluate localization models for controlled dialect adaptation.",
+      "Applied results toward educational NLP tooling for Indian classrooms."
+    ],
+    "tags": [
+      "NLP",
+      "Localization",
+      "Synthetic Data",
+      "LLMs",
+      "Dialect Adaptation"
+    ],
+    "logo": "/images/experience/iit-hyd.png"
+  },
+  {
+    "id": "iit-mandi",
+    "role": "Research Intern",
+    "org": "IIT Mandi \u2014 Centre for AI & Robotics (CAIR)",
+    "location": "Mandi, India",
+    "start": "2025-05",
+    "end": "2025-08",
+    "current": false,
+    "sector": "Artificial Intelligence & Robotics",
+    "link": "https://research.iitmandi.ac.in/cair/",
+    "summary": "Developed humanoid locomotion behaviors using imitation and reinforcement learning for human-like, stable gait synthesis.",
+    "highlights": [
+      "Trained humanoid gaits with imitation learning (GAIL, TRPO) for human-like motion.",
+      "Processed motion-capture data to learn state\u2013action policies directly from expert demonstrations.",
+      "Implemented and trained SAC, DDPG, and TD3 for bipedal walking, achieving stable, robust gait control in simulation."
+    ],
+    "tags": [
+      "Reinforcement Learning",
+      "GAIL",
+      "TRPO",
+      "SAC",
+      "DDPG",
+      "TD3",
+      "Robotics"
+    ],
+    "logo": "/images/experience/iit-mandi.jpg"
+  }
+]
