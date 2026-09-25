@@ -1,14 +1,14 @@
 [
   {
-    "id": "marburg",
-    "degree": "Master of Science (MSc), Data Science",
-    "org": "Philipps-Universität Marburg",
-    "location": "Marburg, Germany",
-    "start": "2026-09",
-    "end": "2028-08",
-    "grade": "Incoming",
-    "link": "https://www.uni-marburg.de/",
-    "detail": "Graduate coursework in statistical learning, machine learning systems, and applied data science — extending the same research-to-production thread from undergrad, now with a deeper focus on the mathematical and systems foundations behind modern AI."
+    "id": "utn",
+    "degree": "Master of Science (MSc), AI and Robotics",
+    "org": "University of Technology Nuremberg (UTN)",
+    "location": "Nuremberg, Germany",
+    "start": "2026-10",
+    "end": "present",
+    "grade": "Current",
+    "link": "https://www.utn.de/",
+    "detail": "Graduate studies in Artificial Intelligence and Robotics, with a focus on intelligent systems, machine learning, robotics, and the integration of AI with autonomous technologies."
   },
   {
     "id": "charusat",
