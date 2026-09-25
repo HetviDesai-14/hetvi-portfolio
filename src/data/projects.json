@@ -6,8 +6,8 @@
     "period": "Dec 2025 – Jun 2026",
     "description": "An end-to-end AI system combining activation steering, emotion classification, speech recognition, and controllable speech synthesis to enable emotionally aligned AI responses.",
     "details": [
-      "Architected an Emotionally Aligned AI system using prompt engineering, activation steering, and circuit-level interventions, attaining state-of-the-art emotion-expression accuracy of 97.4% on Mistral-3-3B and 99.4% on Qwen3-4B-Instruct.",
-      "Assembled a multimodal emotion pipeline spanning a RoBERTa-basede motion classifier(98.8% F1), target classifier(96.6% F1), LoRA-fine-tuned SenseVoice for speech emotion recognition, and emotion-aware TTS via CosyVoice2 and F5-TTS — enabling controllable emotional speech generation across 6+ emotion categories."
+      "Architected an Emotionally Aligned AI system using activation steering, prompt engineering, and circuit-level interventions to achieve top-tier emotion-expression accuracy across open-source LLMs.",
+      "Built an end-to-end multimodal pipeline integrating text classification, speech emotion recognition, and voice synthesis to enable highly controllable emotional speech generation."
     ],
     "stack": ["Activation Steering", "Transformers", "ASR", "TTS", "LoRA", "RoBERTa", "SenseVoice", "CosyVoice2", "F5-TTS"],
     "type": "Emotion AI"
