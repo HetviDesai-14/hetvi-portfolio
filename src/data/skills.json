@@ -5,7 +5,7 @@
     "Large Language Models", "GenAI", "Agentic AI", "Convolutional Neural Networks",
     "Imitation Learning", "Data Analysis", "Data Visualization"
   ],
-  "languages": ["Python", "C++", "Java"],
+  "Programming languages": ["Python", "C", "C++", "Java"],
   "frameworks": [
     "PyTorch", "TensorFlow", "Keras", "Scikit-Learn", "Stable-Baselines3",
     "Gymnasium", "PyBullet", "MuJoCo", "OpenCV", "NLTK", "Spacy",
@@ -16,6 +16,6 @@
     { "name": "Gujarati", "level": "Mother tongue" },
     { "name": "English", "level": "Fluent" },
     { "name": "Hindi", "level": "Fluent" },
-    { "name": "German", "level": "B1" }
+    { "name": "German", "level": "A2" }
   ]
 }
