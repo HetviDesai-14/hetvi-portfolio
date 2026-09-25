@@ -1,31 +1,5 @@
 [
   {
-    "id": "gurugrace",
-    "role": "AI/ML Engineer (Intern)",
-    "org": "GuruGrace Consultancy Service Pvt. Ltd",
-    "location": "Remote \u00b7 Ahmedabad, India",
-    "start": "2025-12",
-    "end": "2026-06",
-    "current": false,
-    "sector": "Information & Communication \u00b7 Natural Language Processing",
-    "link": "https://gcsteq.com/",
-    "summary": "Architected an emotionally aligned AI ecosystem spanning prompt engineering, activation steering, and circuit-level model interventions.",
-    "highlights": [
-      "Achieved state-of-the-art emotion-expression accuracy \u2014 97.4% on Mistral-3-3B and 99.4% on Qwen3-4B-Instruct.",
-      "Built an end-to-end multimodal emotion pipeline: RoBERTa emotion classifier (98.8% F1), target classifier (96.6% F1), and a LoRA-fine-tuned SenseVoice speech recognizer.",
-      "Combined the pipeline with CosyVoice2 and F5-TTS to enable controllable emotional speech generation across 6+ distinct categories."
-    ],
-    "tags": [
-      "Activation Steering",
-      "LoRA",
-      "RoBERTa",
-      "SenseVoice",
-      "CosyVoice2",
-      "F5-TTS"
-    ],
-    "logo": "/images/experience/gcs.jpg"
-  },
-  {
     "id": "iit-hyderabad",
     "role": "Research Intern",
     "org": "IIT Hyderabad \u2014 Natural Language & Information Processing Lab",
