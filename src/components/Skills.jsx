@@ -6,8 +6,8 @@ import Divider from "./Divider";
 
 const ROWS = [
   { key: "domains", label: "Domains", icon: "◆" },
-  { key: "frameworks", label: "Frameworks", icon: "▲" },
-  { key: "languages", label: "Languages", icon: "◇" },
+  { key: "frameworks", label: "Frameworks", icon: "▲" },  
+  { key: "Programming languages", label: "Programming Languages", icon: "◇" },
   { key: "tools", label: "Tools", icon: "●" },
 ];
 
